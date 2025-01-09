@@ -1,2 +1,2 @@
-# dl_rcourse_2022
-Deep Learning using R (with a probabilistic spin). Website: https://tensorchiefs.github.io/dl_rcourse_2022/ 
+# dlwbl_eth25
+Deep Learning with a probabilistic spin. Website: https://tensorchiefs.github.io/dlwbl_eth25
