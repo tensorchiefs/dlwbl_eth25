@@ -44,13 +44,10 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
 
 | Date     |      Lectures
 |:--------:|:--------------|
-|  12.09.2022| Lecture 1 (10:15-12:00), Lecture 2 (14:15-16:00) and Exercises (16:15-18:00)
-|  19.09.2022| Lecture 3 (14:15-16:00) and Exercises (16:15-18:00)
-|  26.09.2022| Lecture 4 (14:15-16:00) and Exercises (16:15-18:00)
-|  03.10.2022| Hands-on DL: This day is reserved to work on your projects on site
-|  10.10.2022| Lecture 5 and presentatation of the projects
-
-
+|  03.02.2025 | Lecture 1   and Exercises 
+|  10.02.2025 | Lecture 2,3 Exercises, Projects
+|  17.02.2025 | Lecture 4   Exercises, Projects
+|  24.02.2025 | Lecture 5 and presentatation of the projects
 
 ## Syllabus (might change during course) 
 
