@@ -64,18 +64,17 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
 <!-- The links are created with the script internal/Create_Notebooks_Table.R -->
 The link in the Kaggle Column opens the Notebook in Kaggle. You might need to change the language from to python to R (File --> Language)
 
-
-| Name     | topic |Kaggle | Git-Hub |
-|:----------------:|:------------------------:|:-------|:------|
-|00_R_Keras_TF_TFP.ipynb|Check Keras, TF, TFP|[00_R_Keras_TF_TFP.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/00_R_Keras_TF_TFP.ipynb)|[00_R_Keras_TF_TFP.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/00_R_Keras_TF_TFP.ipynb)|
-|01_dl-r-banknote.ipynb|Banknote Classification with fcNN |[01_dl-r-banknote.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/01_dl-r-banknote.ipynb)|[01_dl-r-banknote.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/01_dl-r-banknote.ipynb)|
-|02_nb_ch02_02a.ipynb| MNIST classification with fcNN|[02_nb_ch02_02a.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb)|[02_nb_ch02_02a.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb)|
-|03_nb_ch02_03.ipynb|CNN Art lover|[03_nb_ch02_03.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/03_nb_ch02_03.ipynb)|[03_nb_ch02_03.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/03_nb_ch02_03.ipynb)|
-|04_nb_ch02_03.ipynb|CNN Cifar10|[04_nb_ch02_03.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/04_nb_ch02_03.ipynb)|[04_nb_ch02_03.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/04_nb_ch02_03.ipynb)|
-|05-nb-ch02-03.ipynb|Finetuning, pretrained CNNs on CIFAR10|[05-nb-ch02-03.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/05-nb-ch02-03.ipynb)|[05-nb-ch02-03.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/05-nb-ch02-03.ipynb)|
-|06-into-tfp.ipynb|Intro to TFP|[06-into-tfp.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/06-into-tfp.ipynb)|[06-into-tfp.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/06-into-tfp.ipynb)|
-|07-utkface.ipynb|Age CNN: TFP for continuos regression|[07-utkface.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/07-utkface.ipynb)|[07-utkface.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/07-utkface.ipynb)|
-|08-countdata.ipynb|Fish fcNN: TFP for count regression|[08-countdata.ipynb](https://kaggle.com/kernels/welcome?src=https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/08-countdata.ipynb)|[08-countdata.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/08-countdata.ipynb)|
+| Name                 | Topic                                    | Git-Hub                                                                                                    |
+|:---------------------:|:----------------------------------------:|:----------------------------------------------------------------------------------------------------------:|
+| 00_R_Keras_TF_TFP.ipynb | Check Keras, TF, TFP                    | [00_R_Keras_TF_TFP.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/00_R_Keras_TF_TFP.ipynb) |
+| 01_dl-r-banknote.ipynb | Banknote Classification with fcNN       | [01_dl-r-banknote.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/01_dl-r-banknote.ipynb)   |
+| 02_nb_ch02_02a.ipynb   | MNIST classification with fcNN          | [02_nb_ch02_02a.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb)       |
+| 03_nb_ch02_03.ipynb    | CNN Art lover                           | [03_nb_ch02_03.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/03_nb_ch02_03.ipynb)         |
+| 04_nb_ch02_03.ipynb    | CNN Cifar10                             | [04_nb_ch02_03.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/04_nb_ch02_03.ipynb)         |
+| 05-nb-ch02-03.ipynb    | Finetuning, pretrained CNNs on CIFAR10  | [05-nb-ch02-03.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/05-nb-ch02-03.ipynb)         |
+| 06-into-tfp.ipynb      | Intro to TFP                            | [06-into-tfp.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/06-into-tfp.ipynb)             |
+| 07-utkface.ipynb       | Age CNN: TFP for continuos regression   | [07-utkface.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/07-utkface.ipynb)               |
+| 08-countdata.ipynb     | Fish fcNN: TFP for count regression     | [08-countdata.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/08-countdata.ipynb)           |
 
 ## Projects
 Please register your project by Friday 30 October 2022 in https://docs.google.com/spreadsheets/d/1r4pWgXwxeJ6jWNaHeOUpjRnuUSktZYKcpo3lBk7it6I/edit?usp=sharing
