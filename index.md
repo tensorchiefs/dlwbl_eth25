@@ -2,34 +2,22 @@
 # Deep Learning with R
 
 ## Main Idea of the course
-In this short course on deep learning (DL) with R we focus on practical aspects of DL. We understand DL models as probabilistic models which model a (conditional) distribution for the outcome and not only a point estimation. Often this is achieved by modeling the parameters of a probability distribution and the distribution parameters are controlled by a neural network. The DL approach has the advantage, that the input to these neural networks can be all kind of data: tabular (structured) data, but also unstructured raw data like images or text. From this prespective DL models are just a complex generalisation of statistical models like linear regression. The parameters of the involved neural networks itself (often called weights) can be determined by the maximum likelihood principle. The basic idea can be sketched as: 
+In this short course on deep learning (DL) focus on practical aspects of DL. We understand DL models as probabilistic models which model a (conditional) distribution for the outcome and not only a point estimation. Often this is achieved by modeling the parameters of a probability distribution and the distribution parameters are controlled by a neural network. The DL approach has the advantage, that the input to these neural networks can be all kind of data: tabular (structured) data, but also unstructured raw data like images or text. From this prespective DL models are just a complex generalisation of statistical models like linear regression. The parameters of the involved neural networks itself (often called weights) can be determined by the maximum likelihood principle. You can think of this approach as an extrension of generalized linear model to complex data (e.g. images) and non-linear models providing a distribution for the outcome (like a Poisson distribution for count data or Gaussian Distribution for continious data).
+
+The basic idea can be sketched as: 
 
 <img src="https://github.com/tensorchiefs/dl_rcourse_2022/raw/main/ch05_00_opener.jpg" width="40%">
 
 ## Technicalities
-This course is done in R. The used DL libraries are Keras, Tensorflow, and Tensorflow Probability. You can run the code in the cloud (Kaggle / Colab) or on you computer. For 2022, we support the Kaggle approach (Colab does currently not support GPUs from R).
-
-### Kaggle Notebooks
-For doing the hands-on part you can use kaggle notebooks, which allow you to use a GPU. Go to [kaggle.com](kaggle.com) and register. After your first login, you need to do a phone verfication in order to be able to use GPU acceleration and internet (click to your symbol on thr right, account, phone verification). You can directly open the kaggle notebooks from the links provided at the end of this webpage. On the right you have a 3-dots dropdown, where you can select acceleration with GPU, if needed for that notebook.
-If you want to open NB from an github account, you can select "code" on the menu (left), new notebook, import notebook via github (cat symbol) (e.g. from `tensorchiefs/dl_rcourse_2022`).  
+This course is done in python since the R support of DL is very limited and unstable. We use a high-level API (Keras) which allows to define neural networks in a very intuitive way running on top of pytorch. The course is designed that you can run the code in the cloud on Colab. If you want you can also run the code on your computer, you need to install the required libraries (see local_installation.md). However, we recommend to use Colab, since it is easier to set up and you can run the code on a GPU for free and can only provide limited support for local installations.
 
 ### Colab Notebooks
-You also can use use Colab (you need a google account) and an internet connections. However, at the moment (12 Sep 2022) GPU is not accessible for R-notebooks. An empty notebook for R can be started by clicking the following link 
-[https://colab.research.google.com/notebook#create=true&language=r](https://colab.research.google.com/notebook#create=true&language=r) (starts a colab notebook with R) 
-An example notebook, which installs the required DL-Liberies is  [00_R_Keras_TF_TFP] (https://colab.research.google.com/github/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/00_R_Keras_TF_TFP.ipynb). 
-
-### Local Installation
-If you want to do it without Internet connection, on your own computer you can try to install Tensorflow, Keras, and (for the latter lessons) TensorFlow Probability. Check if the notebook [00_R_Keras_TF_TFP](https://colab.research.google.com/github/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/00_R_Keras_TF_TFP.ipynb) is running.   
-
+To use Colab (you need a google account) and an internet connections.
 
 ## Other resources 
 We took inspiration (and sometimes slides / figures) from the following resources.
 
 * Probabilistic Deep Learning (DL-Book) [Probabilistic Deep Learning](https://www.manning.com/books/probabilistic-deep-learning?a_aid=probabilistic_deep_learning&a_bid=78e55885). This book is by us, the tensorchiefs, and covers the probabilistic approach to deep learning unsing Python, Keras, and TensorFlow. We will not cover all aspects of this book during the course.  
-
-* Deep Learning with R [https://tensorflow.rstudio.com/](https://tensorflow.rstudio.com/). Nice resource with DL tutorials in R.
-
-* R Markdown Scripts for DL in R [https://github.com/fmmattioni/deep-learning-with-r-notebooks](https://github.com/fmmattioni/deep-learning-with-r-notebooks) from the author of the Book [Deep Learning with R](https://www.manning.com/books/deep-learning-with-r)
 
 * Deep Learning Book (DL-Book) [http://www.deeplearningbook.org/](http://www.deeplearningbook.org/). This is a quite comprehensive book which goes far beyond the scope of this course. 
 
@@ -77,6 +65,7 @@ The link in the Kaggle Column opens the Notebook in Kaggle. You might need to ch
 | 08-countdata.ipynb     | Fish fcNN: TFP for count regression     | [08-countdata.ipynb](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/08-countdata.ipynb)           |
 
 ## Projects
-Please register your project by Friday 30 October 2022 in https://docs.google.com/spreadsheets/d/1r4pWgXwxeJ6jWNaHeOUpjRnuUSktZYKcpo3lBk7it6I/edit?usp=sharing
+Please register your project by TODO
+<!-- Friday 30 October 2022 in https://docs.google.com/spreadsheets/d/1r4pWgXwxeJ6jWNaHeOUpjRnuUSktZYKcpo3lBk7it6I/edit?usp=sharing -->
 
 
