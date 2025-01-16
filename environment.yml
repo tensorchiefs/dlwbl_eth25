@@ -1,4 +1,4 @@
-name: /Users/oli/Documents/GitHub/dlwbl_eth25/env
+name: dlwbl_eth25_env
 channels:
   - defaults
   - https://repo.anaconda.com/pkgs/main

@@ -13,10 +13,6 @@ source ~/miniconda3/bin/activate
 ```
 
 ### Activate conda environment
-Installation auf laptop mit Anaconda
-Beate's laptop: rufe anaconda prompt auf, gehe in C:\Users\sick\Documents\GitHub\dlwbl_eth25>  und dann folgende Commands ausführen:
-
-
 Activate the conda enviroment in the project folder:
 ```bash
 conda create --prefix ./env python=3.10
@@ -36,19 +32,6 @@ For pytorch see https://pytorch.org/get-started/locally/
 pip install torch torchvision torchaudio keras
 ```
 
-#### Save the environment [Optional]
-
-```bash
-conda env export --no-builds > environment.yml
-```
-
-#### Install the environment from the environment.yml file [Optional]
-Instead of installing the packages one by one, you can also install the environment from the environment.yml file. 
-```bash
-conda env create -f environment.yml
-```
-
-
 ## Testing the installation
 Open the [notebooks/00_test_local_installation.ipynb](notebooks/00_test_local_installation.ipynb) and run the cells. At the beging your are asked to choose a python enviroment. Please choose the conda enviromet like in the screenshot below.
 It might happen that there is no environment to pick, then it could help to first install the suggested extensions of vsCode (jupyter notebook, python).
@@ -56,3 +39,25 @@ It might happen that there is no environment to pick, then it could help to firs
 
 ![Choose Kernel](images/choose_env.png)
 
+
+# 🚧 WORK IN PROGRESS 🚧 below that
+
+## Installation on a Windows machine
+Installation auf laptop mit Anaconda
+Beate's laptop: rufe anaconda prompt auf, gehe in C:\Users\sick\Documents\GitHub\dlwbl_eth25> und dann Commands  
+Ab "Activate conda environment" ausführen.
+
+
+## Creating a yaml file for easy installation
+#### Save the environment [Optional]
+
+```bash
+conda env export --no-builds > environment.yml
+```
+In the evirnoment.yml you need to change the name of the environment to 
+
+#### Install the environment from the environment.yml file [Optional]
+Instead of installing the packages one by one, you can also install the environment from the environment.yml file. 
+```bash
+conda env create -f environment.yml
+```
