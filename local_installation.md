@@ -13,6 +13,9 @@ source ~/miniconda3/bin/activate
 ```
 
 ### Activate conda environment
+Installation auf laptop mit Anaconda
+Beate's laptop: rufe anaconda prompt auf, gehe in C:\Users\sick\Documents\GitHub\dlwbl_eth25>  und dann folgende Commands ausführen:
+
 
 Activate the conda enviroment in the project folder:
 ```bash
@@ -48,6 +51,8 @@ conda env create -f environment.yml
 
 ## Testing the installation
 Open the [notebooks/00_test_local_installation.ipynb](notebooks/00_test_local_installation.ipynb) and run the cells. At the beging your are asked to choose a python enviroment. Please choose the conda enviromet like in the screenshot below.
+It might happen that there is no environment to pick, then it could help to first install the suggested extensions of vsCode (jupyter notebook, python).
+
 
 ![Choose Kernel](images/choose_env.png)
 
