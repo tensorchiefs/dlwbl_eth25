@@ -76,3 +76,19 @@ Please register your project by 11 February 2025 in the following spreadsheet: [
 <!-- Friday 30 October 2022 in https://docs.google.com/spreadsheets/d/1r4pWgXwxeJ6jWNaHeOUpjRnuUSktZYKcpo3lBk7it6I/edit?usp=sharing -->
 
 
+## Example Projects
+
+Below are some example projects to inspire your own ideas. 
+
+1. **Probabilistic Prediction of Temperature (Tabular Data)**
+   You can use the output of (deterministic) numerical weather prediction models as input to a neural network to predict the distribution of the temperatur (or other weather variables) for the next day. If you are interested in this project, we could provide historic forecasts and observed weather for Konstanz. Please contact us for more information.
+   
+2. **Predit the age of bones from X-ray images**
+   Dataset: [RSNA Bone Age](https://www.kaggle.com/datasets/kmader/rsna-bone-age)  
+
+2. **Cuteness of Animal Images**  
+   Competition: [Petfinder Pawpularity Score](https://www.kaggle.com/competitions/petfinder-pawpularity-score)  
+
+3. **Probabilistic Prediction of House Prices from House Images and Tabular Data**  
+   Dataset: [House Prices and Images SoCal](https://www.kaggle.com/datasets/ted8080/house-prices-and-images-socal)  
+   Possible Solution: [House Prices from Images and Tabular Data](https://www.kaggle.com/code/valentinmmueller/house-prices-from-images-and-tabular-data)
