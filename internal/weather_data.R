@@ -1,13 +1,3 @@
-library(tidyverse)
-library(readr)
-df <- read_csv("Documents/GitHub/models-and-forecasting/data_extraction/forecasts_all.csv")
-unique(df$model)
-unique(df$`_field`)
-
-
-df[1:4]
-
-
 ###### Collecting the meassured data
 library(rdwd)
 id = findID('Konstanz')
@@ -36,9 +26,11 @@ N = nrow(akt_temp)
 nrow = N-max_lag + 1 - lead_time
 X = matrix(NA, ncol = length(features)*max_lag, nrow = nrow)
 y = rep(NA, nrow = nrow)
+times = rep(NA, nrow = nrow)
 for (i in (max_lag+1):(N-lead_time + 1)){
   # i = (max_lag+1)
   y[i - max_lag] = dfa[i + lead_time - 1, target]
+  times[i - max_lag] = dfa[i + lead_time - 1,'MESS_DATUM']
   j = 0
   for (f in features) {
     val = dfa[(i-max_lag):(i-1),f]
@@ -50,6 +42,14 @@ X
 lags = paste0("lag_", max_lag:1)
 colnames(X) =  paste(rep(features, each=max_lag), rep(lags, length(features)))
 
+library(readr)
+# Save X and Y
+saveRDS(list(X,y, times), file='~/Dropbox/__ZHAW/__Projekte_Post_ZHAH/DL_WBL/HS24_25_WBL/Projekte/wetter/DWD_lead_time24_max_lag48.rds')
+write_csv(data.frame(X), file='~/Dropbox/__ZHAW/__Projekte_Post_ZHAH/DL_WBL/HS24_25_WBL/Projekte/wetter/DWD_lead_time24_max_lag48_X.csv')
+write_csv(data.frame(y), file='~/Dropbox/__ZHAW/__Projekte_Post_ZHAH/DL_WBL/HS24_25_WBL/Projekte/wetter/DWD_lead_time24_max_lag48_y.csv')
+write_csv(data.frame(times), file='~/Dropbox/__ZHAW/__Projekte_Post_ZHAH/DL_WBL/HS24_25_WBL/Projekte/wetter/DWD_lead_time24_max_lag48_Times.csv')
+
+#### Some initial Analysis
 df_x = data.frame(X[1:1000,])
 df_x$y = y[1:1000]
 names(df_x)
@@ -61,10 +61,6 @@ plot(df_x$y, predict(rf))
 abline(0,1, col='red')
 sqrt(mean((df_x$y-predict(rf))^2))
 
-# Save X and Y
-saveRDS(list(X,y), file='~/Dropbox/__ZHAW/__Projekte_Post_ZHAH/DL_WBL/HS24_25_WBL/Projekte/wetter/DWD_lead_time24_max_lag48.rds')
-write_csv(data.frame(X), file='~/Dropbox/__ZHAW/__Projekte_Post_ZHAH/DL_WBL/HS24_25_WBL/Projekte/wetter/DWD_lead_time24_max_lag48_X.csv')
-write_csv(data.frame(y), file='~/Dropbox/__ZHAW/__Projekte_Post_ZHAH/DL_WBL/HS24_25_WBL/Projekte/wetter/DWD_lead_time24_max_lag48_y.csv')
 
 
 
