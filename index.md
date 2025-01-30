@@ -39,34 +39,34 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
 
 ## Syllabus (🚧 WORK IN PROGRESS 🚧)
 - **Lecture 1**  
-  - **Topic and Slides:** [Introduction, Fully Connected Networks, Keras slides](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/01_Introduction.pdf)  
+  - **Topic and Slides:** [Introduction, Fully Connected Networks, Keras slides](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/01_Introduction_DUMM.pdf)  
   - **Additional Material:** [Network Playground](https://playground.tensorflow.org/)  
   - **Exercises and Homework:**  
     - [Banknoteexample (01_dl-r-banknote.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/01_nb_ch02_01.ipynb)  
     - [MNISTwithsimpleFCNN (02_nb_ch02_02a.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb)  
 
 - **Lecture 2**  
-  - **Topic and Slides:** [Convolutional neural networks (CNNs) slides](https://github.com/tensorchiefs/dl_course_2022/blob/master/slides/02_CNN.pdf)  
+  - **Topic and Slides:** [Convolutional neural networks (CNNs) slides](https://github.com/tensorchiefs/dl_course_2022/blob/master/slides/02_CNN_DUMM.pdf)  
   - **Additional Material:** [Understanding convolution](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)  
   - **Exercises and Homework:**  
     - [ArtLover_CNN (03_nb_ch02_03.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/03_nb_ch02_03.ipynb)  
     - [CIFAR10_CNN (04_nb_ch02_03.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/04_nb_ch02_03.ipynb)  
 
 - **Lecture 3**  
-  - **Topic and Slides:** [CNN cntd. slides](https://github.com/tensorchiefs/dl_course_2022/blob/master/slides/03_CNN_cntd.pdf)  
+  - **Topic and Slides:** [CNN cntd. slides](https://github.com/tensorchiefs/dl_course_2022/blob/master/slides/03_CNN_cntd_DUMM.pdf)  
   - **Additional Material:** [Understanding convolution](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)  
   - **Exercises and Homework:**  
     - [CIFAR10_CNN (04_nb_ch02_03.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/04_nb_ch02_03.ipynb)  
     - [DL_few_data (05_nb_ch02_03.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/05-nb-ch02-03.ipynb)  
 
 - **Lecture 4**  
-  - **Topic and Slides:** [Prob. Deep Learning slides](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/04_prob_dl.pdf)  
+  - **Topic and Slides:** [Prob. Deep Learning slides](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/04_prob_dl_DUMM.pdf)  
   - **Additional Material:** [Probabilistic Deep Learning](https://www.manning.com/books/probabilistic-deep-learning?a_aid=probabilistic_deep_learning&a_bid=78e55885)  
   - **Exercises and Homework:**  
     - Notebooks 6-8 (see below)  
 
 - **Lecture 5**  
-  - **Topic and Slides:** [Semi-structured interpretable DL models slides](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/05_semi_structured.pdf)  
+  - **Topic and Slides:** [Semi-structured interpretable DL models slides](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/05_semi_structured_DUMM.pdf)  
   - **Additional Material:** [Deep and interpretable ordinal regression models](https://arxiv.org/abs/2010.08376)  
   - **Exercises and Homework:** No notebooks  
 
