@@ -3,7 +3,7 @@ library(rdwd)
 id = findID('Konstanz')
 print(id)
 
-KN_pos = selectDWD(id=id, res='hourly',  per='recent')
+KN_pos = selectDWD(id=id, res='hourly', var='', per='recent')
 KN_recent = dataDWD(KN_pos, read = TRUE, varnames=TRUE)
 
 akt_temp = KN_recent$hourly_air_temperature_recent_stundenwerte_TU_02712_akt
