@@ -39,9 +39,10 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
 
 ## Syllabus (🚧 WORK IN PROGRESS 🚧)
 - **Lecture 1**  
-  - **Topic and Slides:** [Introduction](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/01_Introduction.pdf)   
-  
+  - **Topic and Slides:** [Introduction to probabilistic deep learning](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/01_Introduction.pdf)   
+
   - **Additional Material:** [Network Playground](https://playground.tensorflow.org/)  
+  
   - **Exercises and Homework:**  
     - [Banknoteexample (01_dl-r-banknote.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/01_nb_ch02_01.ipynb)  
     - [MNISTwithsimpleFCNN (02_nb_ch02_02a.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb)  
