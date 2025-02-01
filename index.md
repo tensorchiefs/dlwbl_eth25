@@ -39,7 +39,7 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
 
 ## Syllabus (🚧 WORK IN PROGRESS 🚧)
 - **Lecture 1**  
-  - **Topic and Slides:** [Introduction to probabilistic deep learning](https://github.com/tensorchiefs/dlwbl_eth25/blob/main/slides/01_Introduction.pdf)   
+  - **Topic and Slides:** [Introduction to probabilistic deep learning](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/01_Introduction.pdf)   
 
   - **Additional Material:** [Network Playground](https://playground.tensorflow.org/)  
   
