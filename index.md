@@ -32,10 +32,10 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
 
 | Date     |      Lectures
 |:--------:|:--------------|
-|  03.02.2025 | Lecture 1   and Exercises 
-|  10.02.2025 | Lecture 2,3 Exercises, Projects
-|  17.02.2025 | Lecture 4   Exercises, Projects
-|  24.02.2025 | Lecture 5 and presentatation of the projects
+|  03.02.2025  afternoon |   Intro to probabilistic DL and Keras with exercises 
+|  10.02.2025 all day| DL with different NN architectures based on images and tabular data with exercises and project time 
+|  17.02.2025 all day | Model evaluation, multimodal data models and project time
+|  24.02.2025 morning | project presentation and generative models
 
 ## Syllabus (🚧 WORK IN PROGRESS 🚧)
 - **Lecture 1**  
