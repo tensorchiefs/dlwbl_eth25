@@ -37,17 +37,21 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
 |  17.02.2025 all day | Model evaluation, multimodal data models and project time
 |  24.02.2025 morning | project presentation and generative models
 
-## Syllabus (🚧 WORK IN PROGRESS 🚧)
+## Syllabus 
 - **Lecture 1**  
-  - **Topic and Slides:** [Introduction to probabilistic deep learning](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/01_Introduction.pdf)   
-
+  - **Topic and Slides:** [Introduction to probabilistic deep learning](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/01_Introduction.pdf)  
+  - **Notebooks:**  
+    - [Getting Started with Colab](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/00_colab_intro_forR.ipynb)
+    - [Banknote Example 01_fcnn_with_banknotes.ipynb](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/01_fcnn_with_banknotes.ipynb)
+ 
+  - **Optional Notebooks:**  
+    - [Optional: Training with low-level liberaries](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/01_optional_training_details.ipynb)
   - **Additional Material:** [Network Playground](https://playground.tensorflow.org/)  
-  
-  - **Exercises and Homework:**  
-    - [Banknoteexample (01_dl-r-banknote.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/01_nb_ch02_01.ipynb)  
-    - [MNISTwithsimpleFCNN (02_nb_ch02_02a.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb)  
 
-- **Lecture 2**  
+
+    
+<!-- (🚧 Notebooks and slides below are  unfinished🚧)
+- [MNISTwithsimpleFCNN (02_nb_ch02_02a.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb) 
   - **Topic and Slides:** [Convolutional neural networks (CNNs) slides](https://github.com/tensorchiefs/dl_course_2022/blob/master/slides/02_CNN_DUMM.pdf)  
   - **Additional Material:** [Understanding convolution](https://towardsdatascience.com/intuitively-understanding-convolutions-for-deep-learning-1f6f42faee1)  
   - **Exercises and Homework:**  
@@ -70,7 +74,7 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
 - **Lecture 5**  
   - **Topic and Slides:** [Semi-structured interpretable DL models slides](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/slides/05_semi_structured_DUMM.pdf)  
   - **Additional Material:** [Deep and interpretable ordinal regression models](https://arxiv.org/abs/2010.08376)  
-  - **Exercises and Homework:** No notebooks  
+  - **Exercises and Homework:** No notebooks   -->
 
 
 ## Projects
@@ -80,17 +84,18 @@ Please register your project by 11 February 2025 in the following spreadsheet: [
 
 ## Example Projects
 
-Below are some example projects to inspire your own ideas. 
+Below are two example projects you could use, but it is also possible to come up with your own ideas. 
 
 1. **Probabilistic Prediction of Temperature (Tabular Data)**
-   You can use the output of (deterministic) numerical weather prediction models as input to a neural network to predict the distribution of the temperatur (or other weather variables) for the next day. If you are interested in this project, we could provide historic forecasts and observed weather for Konstanz. Please contact us for more information.
+  There are serveral possibilities to make a probilistic prediction of weather.  
+  The [this notebook](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/project_starters/weather/weather_pred.ipynb) contains starter code for predicting temperatures based on historic data. 
    
-2. **Predit the age of bones from X-ray images**
-   Dataset: [RSNA Bone Age](https://www.kaggle.com/datasets/kmader/rsna-bone-age)  
-
 2. **Cuteness of Animal Images**  
-   Competition: [Petfinder Pawpularity Score](https://www.kaggle.com/competitions/petfinder-pawpularity-score)  
+   In the kaggle competition [Petfinder Pawpularity Score](https://www.kaggle.com/competitions/petfinder-pawpularity-score) you are asked to predict the popularity of a pet based on its image. This is a regression task, where the target is the popularity score. Starter code is provided in the [notebook](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/project_starters/pawpularity/pawpularity_starter.ipynb).
+
+<!-- 2. **Predit the age of bones from X-ray images**
+   Dataset: [RSNA Bone Age](https://www.kaggle.com/datasets/kmader/rsna-bone-age)  
 
 3. **Probabilistic Prediction of House Prices from House Images and Tabular Data**  
    Dataset: [House Prices and Images SoCal](https://www.kaggle.com/datasets/ted8080/house-prices-and-images-socal)  
-   Possible Solution: [House Prices from Images and Tabular Data](https://www.kaggle.com/code/valentinmmueller/house-prices-from-images-and-tabular-data)
+   Possible Solution: [House Prices from Images and Tabular Data](https://www.kaggle.com/code/valentinmmueller/house-prices-from-images-and-tabular-data) -->
