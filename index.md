@@ -53,7 +53,7 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
   - **Notebooks:**  
     - [Custom loss function with NLL (02_custom_loss.ipynb)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/02_custom_loss.ipynb)
     - [The simplest possible CNN (02_cnn_edge_lover.ipynb)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/02_cnn_edge_lover.ipynb)
-    - [Transfer Learning with CNNs (02_transfer_learning.ipynb)() 🚧] Comming Soon🚧
+    - [Transfer Learning with CNNs (02_transfer_learning.ipynb)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/02_transfer_learning) 
 <!-- (🚧 Notebooks and slides below are  unfinished🚧)
 - [MNISTwithsimpleFCNN (02_nb_ch02_02a.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb) 
   - **Topic and Slides:** [Convolutional neural networks (CNNs) slides](https://github.com/tensorchiefs/dl_course_2022/blob/master/slides/02_CNN_DUMM.pdf)  
