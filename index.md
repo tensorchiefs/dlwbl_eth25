@@ -49,7 +49,7 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
   - **Additional Material:** [Network Playground](https://playground.tensorflow.org/)  
 
 - **Lecture 2**
-  - **Topic and Slides:** [Convolutional neural networks (CNNs)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/02_DL_2025.pdf)
+  - **Topic and Slides:** [NN training, different NN architectures (fcNN, CNN), working with pretrained NNs](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/02_DL_2025.pdf)
   - **Notebooks:**  
     - [Custom loss function with NLL (02_custom_loss.ipynb)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/02_custom_loss.ipynb)
     - [The simplest possible CNN (02_cnn_edge_lover.ipynb)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/02_cnn_edge_lover.ipynb)
