@@ -32,3 +32,9 @@ local_installation.html
 *.ps
 *.nav
 *.snm
+
+# Images and other downloaded files
+/notebooks/attick/oxford-iiit-pet/*
+
+notebooks/X_faces.npy
+notebooks/Y_age.npy

@@ -28,14 +28,14 @@ We took inspiration (and sometimes slides / figures) from the following resource
 * **[Keras Documentation](https://keras.io/)**  
   François Chollet initially developed Keras as an easy-to-use high-level API for building and training neural networks. Its simple interface and powerful capabilities make it a cornerstone of deep learning research and application.  
 ## Dates 
-The course is split in 5 lectures, which excercises. You will also work on a project with data of your own choosing. 
+The course is split in 4 lectures, which excercises. You will also work on a project with data of your own choosing. For rooms see [ETHZ Course Catalogue](https://www.lehrbetrieb.ethz.ch/Vorlesungsverzeichnis/lerneinheit.view?lerneinheitId=189821&semkez=2025S&lang=en).
 
 | Date     |      Lectures
 |:--------:|:--------------|
 |  03.02.2025  afternoon |   Intro to probabilistic DL and Keras with exercises 
 |  10.02.2025 all day| DL with different NN architectures based on images and tabular data with exercises and project time 
-|  17.02.2025 all day | Model evaluation, multimodal data models and project time
-|  24.02.2025 morning | project presentation and generative models
+|  17.02.2025 all day | Model evaluation, LLM and transformers, and project time
+|  24.02.2025 morning | project presentation and uncertainty
 
 ## Syllabus 
 - **Lecture 1**  
@@ -54,6 +54,13 @@ The course is split in 5 lectures, which excercises. You will also work on a pro
     - [Custom loss function with NLL (02_custom_loss.ipynb)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/02_custom_loss.ipynb)
     - [The simplest possible CNN (02_cnn_edge_lover.ipynb)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/02_cnn_edge_lover.ipynb)
     - [Transfer Learning with CNNs (02_transfer_learning.ipynb)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/02_transfer_learning.ipynb) 
+
+- **Lecture 3**
+  - **Topic and Slides:** [Model evaluation and transformer NNs ](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/03_DL_2025.pdf)
+  - **Notebooks:**  
+    - [🚧 Custom loss function with NLL (03_uk_faces)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/03_uk_faces.ipynb)
+    - [Sampling from pretrained LMM 03_sampling_llm](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/03_sampling_llm.ipynb)
+    
 
 
 <!-- Notebooks and slides below are  unfinished🚧
