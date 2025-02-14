@@ -4,3 +4,31 @@
 local_installation.html
 /local_installation_files
 /internal/data
+
+# LaTeX auxiliary files
+*.aux
+*.bbl
+*.bcf
+*.blg
+*.idx
+*.ilg
+*.ind
+*.lof
+*.lot
+*.out
+*.toc
+*.gz
+*.fls
+*.fdb_latexmk
+
+# Log and temporary files
+*.log
+*.synctex.gz
+*.synctex(busy)
+*.dvi
+*.xdv
+
+# PDF and PostScript outputs (optional, remove if you want to track them)
+*.ps
+*.nav
+*.snm
