@@ -58,8 +58,9 @@ The course is split in 4 lectures, which excercises. You will also work on a pro
 - **Lecture 3**
   - **Topic and Slides:** [Model evaluation and transformer NNs ](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/03_DL_2025.pdf)
   - **Notebooks:**  
-    - [🚧 Custom loss function with NLL (03_uk_faces)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/03_uk_faces.ipynb)
+    - [Custom loss function with NLL (03_uk_faces)](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/03_uk_faces.ipynb)
     - [Sampling from pretrained LMM 03_sampling_llm](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/03_sampling_llm.ipynb)
+    - [Demo of VIT](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/03_VIT_Demo.ipynb)
     
 
 
