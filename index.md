@@ -63,6 +63,12 @@ The course is split in 4 lectures, which excercises. You will also work on a pro
     - [Demo of VIT](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/03_VIT_Demo.ipynb)
     
 
+- **Lecture 4**
+  - **Topic and Slides:** [Uncertainty, Ensembling, and Bayesian NN](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/04_DL_2025.pdf)
+  - **Presentations**  
+   
+
+
 
 <!-- Notebooks and slides below are  unfinished🚧
 - [MNISTwithsimpleFCNN (02_nb_ch02_02a.ipynb)](https://github.com/tensorchiefs/dl_rcourse_2022/blob/main/notebooks/02_nb_ch02_02a.ipynb) 
