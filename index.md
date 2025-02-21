@@ -39,7 +39,7 @@ The course is split in 4 lectures, which excercises. You will also work on a pro
 
 ## Syllabus 
 - **Lecture 1**  
-  - **Topic and Slides:** [Introduction to probabilistic deep learning](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/01_Introduction.pdf)  
+  - **Topic and Slides:** [Introduction to probabilistic deep learning](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/slides/01_DL_2025.pdf)  
   - **Notebooks:**  
     - [Getting Started with Colab](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/00_colab_intro_forR.ipynb)
     - [Banknote Example 01_fcnn_with_banknotes.ipynb](https://github.com/tensorchiefs/dlwbl_eth25/blob/master/notebooks/01_fcnn_with_banknotes.ipynb)
