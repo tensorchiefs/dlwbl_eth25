@@ -1,0 +1,59 @@
+\documentclass{beamer}
+\usepackage[utf8]{inputenc}
+\usepackage{amsmath,amssymb}
+
+\title{Ensembling Improves the NLL Performance}
+\author{ }
+\date{ }
+
+\begin{document}
+
+\begin{frame}{Ensembling Improves the NLL Performance}
+  \textbf{Ensemble Prediction:}  
+  \[
+    P_k^E = \frac{1}{M} \sum_{m=1}^{M} P_{km}, 
+    \quad k = 1, \ldots, 10 
+    \quad (\text{for 10 classes})
+  \]
+  \medskip
+  
+  \textbf{Negative Log-Likelihood (NLL) Contribution:}
+  \[
+    l_m = -\log\bigl(P_{km}\bigr)
+    \quad\text{for model } m
+  \]
+  \[
+    l^E = -\log\bigl(P_k^E\bigr)
+    \quad\text{for the ensemble}
+  \]
+  \medskip
+
+  \textbf{Compare Average vs. Ensemble NLL:}
+  \[
+    \bar{l} = \frac{1}{M} \sum_{m=1}^{M} l_m 
+    = -\frac{1}{M} \sum_{m=1}^{M} \log\bigl(P_{km}\bigr) 
+    \ge -\log\!\Bigl(\frac{1}{M} \sum_{m=1}^{M} P_{km}\Bigr) = l^E    
+  \]
+  
+
+  \textbf{Reason:} Jensen's inequality for the concave function 
+  \(\log(\cdot)\) implies
+  \[
+    \log\!\Bigl(\tfrac{1}{M}\sum_{m=1}^{M} P_{km}\Bigr)
+    \;\ge\;
+    \tfrac{1}{M}\sum_{m=1}^{M} \log\bigl(P_{km}\bigr).
+  \]
+  Therefore,
+  \[
+    \bar{l} \;=\; -\tfrac{1}{M}\!\sum_{m=1}^{M}\!\log\bigl(P_{km}\bigr)
+    \;\ge\;
+    -\log\!\Bigl(\tfrac{1}{M}\sum_{m=1}^{M} P_{km}\Bigr)
+    \;=\;
+    l^E.
+  \]
+
+  \textbf{Conclusion:} The ensemble NLL is always less than or equal to the
+  average NLL of individual models, so \emph{ensembling improves NLL performance}.
+\end{frame}
+
+\end{document}
